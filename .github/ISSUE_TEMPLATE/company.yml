@@ -1,0 +1,29 @@
+name: Company suggestion or correction
+description: Suggest a company, milestone, source or factual correction.
+title: "[Research] "
+body:
+  - type: input
+    id: company
+    attributes:
+      label: Company name and official website
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should change?
+      description: Describe the company, correction or meaningful milestone.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Direct primary sources
+      description: Company announcements, research pages, investor portfolios or papers. Include dates when available.
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Uncertainty or context
+      description: Note whether a claim is a target, demo, pilot, completed deployment or company-reported result.

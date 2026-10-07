@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-results/
+.vercel/
+.env*
+!.env.example
+.DS_Store
+__pycache__/
+*.log
+data/
+outputs/
+previews/
+*.pem
+*.key

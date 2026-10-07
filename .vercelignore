@@ -1,0 +1,10 @@
+.git
+.github
+node_modules
+test-results
+docs
+.DS_Store
+.env*
+dist
+README.md
+CONTRIBUTING.md

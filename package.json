@@ -1,0 +1,19 @@
+{
+  "name": "interactive-physical-landscape",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A community-contributed landscape of physical AI and robotics, curated by Sapir Hadad.",
+  "scripts": {
+    "verify": "npm run verify:profiles && npm run verify:placements",
+    "verify:profiles": "node scripts/verify-profile-data.cjs",
+    "verify:placements": "node scripts/verify-placements.cjs",
+    "build": "node scripts/build-site.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sapir-boop/interactive-physical-landscape.git"
+  }
+}
